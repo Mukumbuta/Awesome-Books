@@ -12,9 +12,14 @@ html {
   top: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .nav-brand {
   font-size: 20px;
   font-weight: 800;
+  color: darkgreen;
 }
 
 nav {
@@ -35,17 +40,27 @@ nav {
 }
 
 li {
+  border-right: solid 2px #000;
   padding-right: 20px;
 }
 
 li a {
   text-decoration: none;
-  color: #000;
-  font-weight: 600;
+  padding-left: 15px;
+  font-weight: 700;
+  color: teal;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.nav-list a:focus {
+  font-weight: 700;
+  color: teal;
 }
 
 #show-time {
-  font-family: sans-serif;
   font-weight: 700;
   margin-left: 70%;
   margin-right: 0;
