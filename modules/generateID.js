@@ -1,3 +1,3 @@
-export const generateID = () => {
-    return Math.floor(Math.random() * 100);
+export default function generateID() {
+  return Math.floor(Math.random() * 100);
 }
