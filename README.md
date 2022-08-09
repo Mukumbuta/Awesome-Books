@@ -6,13 +6,16 @@
 
 ## Built With
 
-- Major languages: HTML, JavaScript
+- Major languages: HTML, CSS, JavaScript
 - Frameworks: N/A
-- Technologies used: Linters, Git, npm
+- Technologies used: Linters, Git, npm, Luxon
 
 
 To get a local copy up and running follow these simple example steps.
 
+## Deployment
+- Deployed with Github pages
+- Live link: https://mukumbuta.github.io/Awesome-Books/
 
 ## Authors
 
