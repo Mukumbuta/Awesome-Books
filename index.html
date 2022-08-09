@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books Library</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">Awesome Books Library</div>
+        <div class="navigation-menu">
+            <ul class="nav-list">
+                <li class="menu-items"><a href="#" class="list-books">List</a></li>
+                <li class="menu-items"><a href="#" class="addBook">Add New</a></li>
+                <li class="menu-items"><a href="#" class="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="show-time"></div>
+    <section id="list-books" class="container active">
+        <h1>
+            All Awesome Books
+        </h1>
+        <table class="display-books">
+           <tbody class="book-details">
+           </tbody>
+        </table>
+        <hr>
+    </section>
+    <section id="addBook" class="container">
+        <form action="#" id="add-book">
+            <div class="form-heading">
+                <h1>
+                    Add a new book
+                </h1>
+            </div>
+            <div class="input-fields-container">
+                <div class="title-field">
+                    <input type="text" name="title" id="title" placeholder="Title"> <br  /><br />
+                </div>
+                <div class="author-field">
+                    <input type="text" name="author" id="author" placeholder="Author"><br  /><br />
+                </div>
+                <small id="error"></small> <br>
+                <button type="submit" id="addBtn">Add</button>
+            </div> 
+        </form>
+    </section>
+    <section id="contact" class="container">
+        <h1>Contact information</h1>
+        <div class="contact-details">
+            <p>Do you have any questions or you just want to say Hello</p>
+            <p>You can reach out to us via:</p>
+            <ul class="contact-text">
+                <li>Our Email: awesomebooks@mail.com</li>
+                <li>Our Phone Number: +260-955-001-561</li>
+                <li>Our Address: Lusaka, off Great North Rd, Chimwemwe street, Kabanana S/S</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright Reserved @awesome books 2022</p>
+    </footer>
+     <script type="module" src="index.js"></script>
+</body>
+</html>
