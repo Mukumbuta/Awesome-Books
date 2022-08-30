@@ -33,16 +33,16 @@ menuItems.forEach((item) => {
 
 // Event: Add book to UI onsubmit
 const form = document.getElementById('add-book');
-form.addEventListener('submit', () => {
+form.addEventListener('submit', (e) => {
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
   const bookID = generateID();
 
   // Validate form before creating book object
   const errorMsg = document.getElementById('error');
-  if(title.length === 0 || author.length === 0) {
+  if (title.length === 0 || author.length === 0) {
     e.preventDefault();
-    errorMsg.textContent = 'All fields must be filled in!'
+    errorMsg.textContent = 'All fields must be filled in!';
   }
 
   // Create book instance
